@@ -59,7 +59,6 @@ function Fetchapi() {
       
  //css part1 
  const mystyle1={
-  
   backgroundColor: "lightgrey",
   width: "30%",
   border: "10px solid green",
@@ -85,8 +84,9 @@ function Fetchapi() {
      {/* displaying output   */}
 {Object.entries(pp).map(([key,value])=>(
   <tr style={mystyle2} key={key}>{key}<td style={mystyle2}> {value}</td></tr>
-))}
+   ))}
 </table>
+
    </div>
    </div>
   )
