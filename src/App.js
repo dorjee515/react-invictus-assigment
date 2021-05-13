@@ -5,7 +5,6 @@ function App() {
     <div className="App">
         <Header />
        <Fetchapi/>
-    
     </div>
   ); 
 }
