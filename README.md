@@ -1,15 +1,15 @@
 # Invictus Assignment based on ReactJS
 
 ## Summary of work
-> Created header component to give heading to the project
-> Created a fetchapi module which fetch the raw data from the website
-> Used fetch method to grab the data from the website in the form of text and covert the raw text into string 
-> Remove all spaces and special characters from the string using split() and replace() function
-> Used for loop to calculate the frequency of each distinct words 
-> Used react hook to store the raw data in form of text 
-> Used little bit Css to give a good look to the webpage
-> Used table to store the words and frequency in tabular format 
-> Used map function to print the words and frequency
+- Created header component to give heading to the project
+- Created a fetchapi module which fetch the raw data from the website
+- Used fetch method to grab the data from the website in the form of text and covert the raw text into string 
+- Remove all spaces and special characters from the string using split() and replace() function
+- Used for loop to calculate the frequency of each distinct words 
+- Used react hook to store the raw data in form of text 
+- Used little bit Css to give a good look to the webpage
+- Used table to store the words and frequency in tabular format 
+- Used map function to print the words and frequency
 
 ## Heroku link of the project
 [app link](https://invictus-wordsfreq-ranking.herokuapp.com/)
