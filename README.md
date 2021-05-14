@@ -4,7 +4,7 @@
 
 ![](https://github.com/dorjee515/react-invictus-assigment/blob/master/test%20outputs/test1.png)
 
-output: [
+*output: [
        and : 10
        the : 9 
        in : 7
@@ -16,7 +16,7 @@ output: [
 * input n=10 
 
 ![](https://github.com/dorjee515/react-invictus-assigment/blob/master/test%20outputs/test2.png)
-output: [
+*output: [
         and : 10
         the : 9
         in : 7
@@ -32,7 +32,7 @@ output: [
  * input n=17
 
 ![](https://github.com/dorjee515/react-invictus-assigment/blob/master/test%20outputs/test3.png)
- output:[
+ *output:[
         and : 10
         the : 9
         in : 7
@@ -49,5 +49,5 @@ output: [
         are : 3
         on : 3
         using : 3
-        field : 2
+        technologies:3
         ]
