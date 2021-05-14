@@ -13,10 +13,11 @@ function Fetchapi() {
      });
      f(document.getElementById("inp").value); 
     }
-    //removing all unesssary spaces and special characters
+    //converting raw text into string and removing all unesssary spaces and special characters from the
   const dtos=data.toString().replace(/[^a-zA-Z ]/g, "").split(" "); 
   const output=[]
 
+  //finding frequency of each words
   for(var i=0;i<dtos.length;i++){
    var word=dtos[i];
       if(isNaN(word)){
@@ -29,21 +30,12 @@ function Fetchapi() {
     }
 
  var a=parseInt(n);
-  const sortable = Object.fromEntries(
+ //sorting object with frequency in decreasing order
+ const sortable = Object.fromEntries(
   Object.entries(output).sort(([,a],[,b]) => b-a));
 
-  //  var cnt=0;
-  //     for(const e of Object.keys(sortable)){
-  //       if(cnt!==a){
-  //       console.log(`${e} : ${sortable[e]}`)
-  //        cnt+=1;  
-  //      }
-  //      else{
-  //        break;
-  //      } 
-
-   //  }
-    const pp=[]
+ //making an object which contain n words and frequency
+   const pp=[]
     var c=0;
     for(const e of Object.keys(sortable)){
       if(c!==a){
@@ -60,7 +52,7 @@ function Fetchapi() {
  //css part1 
  const mystyle1={
   backgroundColor: "lightgrey",
-  width: "30%",
+  width: "20%",
   border: "10px solid green",
   padding: "50px",
   margin: "20px",
@@ -69,10 +61,12 @@ function Fetchapi() {
 // css 2 for table
  const mystyle2={
   border: "1px solid black",
+  width:"50%"
     };
 
  return (
    <div>
+     <h1 style={{fontFamily:"sans-serif"}}>Ranking words with there frequency</h1>
    <input type="number" id="inp" name="number"></input> <br/>
    <button onClick={apiGet} >submit</button><br/> 
    <div style={mystyle1}>
@@ -86,7 +80,6 @@ function Fetchapi() {
   <tr style={mystyle2} key={key}>{key}<td style={mystyle2}> {value}</td></tr>
    ))}
 </table>
-
    </div>
    </div>
   )
