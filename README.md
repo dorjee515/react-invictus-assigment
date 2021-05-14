@@ -9,7 +9,7 @@ output: [
        the : 9 
        in : 7
        to : 7
-       of : 5
+       with : 6
         ]
       
 # test-case 2:
@@ -17,16 +17,16 @@ output: [
 
 ![](https://github.com/dorjee515/react-invictus-assigment/blob/master/test%20outputs/test2.png)
 output: [
-       1. and : 10
-       2. the : 9
-       3. in : 7
-       4. to : 7
+        and : 10
+        the : 9
+        in : 7
+        to : 7
         of : 5
-        a : 5
-        Amazon : 5
-        Invictus : 4
-        with : 4
-        is : 3
+        with : 6
+        a:5
+        amazon : 5
+        invictus : 4
+        safety: 4
         ]
  # test-case 3:
  * input n=17
@@ -37,17 +37,17 @@ output: [
         the : 9
         in : 7
         to : 7
+        with : 6
         of : 5
-        a : 5
-        Amazon : 5
-        Invictus : 4
-        with : 4
+        a:5
+        amazon : 5
+        invictus : 4
+        safety: 4
         is : 3
+        compliance:3
         as : 3
-        safety : 3
         are : 3
         on : 3
         using : 3
         field : 2
-        With : 2
         ]
