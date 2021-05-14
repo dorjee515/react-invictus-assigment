@@ -30,6 +30,8 @@ output: [
         ]
  # test-case 3:
  * input n=17
+
+![](https://github.com/dorjee515/react-invictus-assigment/blob/master/test%20outputs/test3.png)
  output:[
         and : 10
         the : 9
