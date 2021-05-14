@@ -1,6 +1,6 @@
 # Invictus Assignment based on ReactJS
-test-case 1:
-input n=5
+# test-case 1:
+* input n=5
 output: [
        and : 10
        the : 9 
@@ -9,8 +9,8 @@ output: [
        of : 5
         ]
       
-test-case 2:
-input n=10 
+# test-case 2:
+* input n=10 
 output: [
         and : 10
         the : 9
@@ -23,8 +23,8 @@ output: [
         with : 4
         is : 3
         ]
- test-case 3:
- input n=17
+ # test-case 3:
+ * input n=17
  output:[
         and : 10
         the : 9
