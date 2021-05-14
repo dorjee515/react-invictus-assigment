@@ -1,4 +1,4 @@
-//Invictus Assignment based on ReactJS
+#Invictus Assignment based on ReactJS
 #test-case 1:
 input n=5
 output: [
