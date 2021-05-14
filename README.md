@@ -1,10 +1,15 @@
 # Invictus Assignment based on ReactJS
+
+## Heroku link of the project
+[app link](https://invictus-wordsfreq-ranking.herokuapp.com/)
+
+
 # test-case 1:
 * input n=5
 
 ![](https://github.com/dorjee515/react-invictus-assigment/blob/master/test%20outputs/test1.png)
 
-*output: [
+* output: [
        and : 10
        the : 9 
        in : 7
@@ -16,7 +21,7 @@
 * input n=10 
 
 ![](https://github.com/dorjee515/react-invictus-assigment/blob/master/test%20outputs/test2.png)
-*output: [
+* output: [
         and : 10
         the : 9
         in : 7
@@ -32,7 +37,7 @@
  * input n=17
 
 ![](https://github.com/dorjee515/react-invictus-assigment/blob/master/test%20outputs/test3.png)
- *output:[
+ * output:[
         and : 10
         the : 9
         in : 7
