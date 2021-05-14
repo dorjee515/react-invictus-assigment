@@ -1,6 +1,6 @@
 # Invictus Assignment based on ReactJS
 
-## Sammary of work
+## Summary of work
 > Created header component to give heading to the project
 > Created a fetchapi module which fetch the raw data from the website
 > Used fetch method to grab the data from the website in the form of text and covert the raw text into string 
