@@ -1,5 +1,4 @@
 import React,{useState} from 'react'
-
 function Fetchapi() {
   const url='https://raw.githubusercontent.com/invictustech/test/main/README.md'
   const [data,setData] = useState([]);
@@ -46,39 +45,41 @@ function Fetchapi() {
            break;
           }
        }
-     //  console.log(pp);
-   
       
  //css part1 
  const mystyle1={
   backgroundColor: "lightgrey",
-  width: "20%",
-  border: "10px solid green",
-  padding: "50px",
-  margin: "20px",
-  
+  width: "15%",
+   border: "5px solid black",
+  padding: "40px",
+  margin: "30px",
  };
+
 // css 2 for table
  const mystyle2={
   border: "1px solid black",
-  width:"50%"
+  width:"60%",
+ 
     };
 
  return (
    <div>
      <h1 style={{fontFamily:"sans-serif"}}>Ranking words with there frequency</h1>
-   <input type="number" id="inp" name="number"></input> <br/>
-   <button onClick={apiGet} >submit</button><br/> 
+   <input style={{marginLeft:"20px",height:"17px"}}type="number" id="inp" name="number"></input> <br/>
+   <button style={{marginLeft:"20px",marginTop:"5px",backgroundColor:"red",borderRadius:"70px"}}onClick={apiGet} >submit</button><br/> 
    <div style={mystyle1}>
    <table style={mystyle2}>
-     <tr>
+    <thead>
+      <tr>
        <th style={mystyle2}>Word</th>
        <th style={mystyle2}>Frequency</th>
-     </tr>
-     {/* displaying output   */}
-{Object.entries(pp).map(([key,value])=>(
-  <tr style={mystyle2} key={key}>{key}<td style={mystyle2}> {value}</td></tr>
-   ))}
+       </tr>
+    </thead>
+    <tbody>
+      {Object.entries(pp).map(([key,value])=>(
+     <tr style={mystyle2} key={key}>{key} <td  style={mystyle2}> {value}</td></tr>
+    ))}
+    </tbody>
 </table>
    </div>
    </div>
