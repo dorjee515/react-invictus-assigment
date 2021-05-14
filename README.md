@@ -1,6 +1,9 @@
 # Invictus Assignment based on ReactJS
 # test-case 1:
 * input n=5
+
+![](https://github.com/dorjee515/react-invictus-assigment/blob/master/test%20outputs/test1.png)
+
 output: [
        and : 10
        the : 9 
