@@ -14,6 +14,18 @@
 ## Heroku link of the project
 [app link](https://invictus-wordsfreq-ranking.herokuapp.com/)
 
+### Sample code
+* code 1
+![](https://github.com/dorjee515/react-invictus-assigment/blob/master/test%20outputs/code01.png)
+
+* code 2
+![](https://github.com/dorjee515/react-invictus-assigment/blob/master/test%20outputs/code02.png)
+
+* code 3
+![](https://github.com/dorjee515/react-invictus-assigment/blob/master/test%20outputs/code03.png)
+
+
+
 # test-case 1:
 * input n=5
 
