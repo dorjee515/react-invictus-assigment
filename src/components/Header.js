@@ -8,6 +8,7 @@ export const Header = () => {
        textShadow: "2px 2px 5px red"    
       }
     return (
+      
        <header>
           <h1 style={head}>Invictus Assignment</h1>
        </header>

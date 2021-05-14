@@ -36,6 +36,7 @@ function Fetchapi() {
  //making an object which contain n words and frequency
    const pp=[]
     var c=0;
+    
     for(const e of Object.keys(sortable)){
       if(c!==a){
         pp[e]=sortable[e];
@@ -49,7 +50,7 @@ function Fetchapi() {
  //css part1 
  const mystyle1={
   backgroundColor: "lightgrey",
-  width: "15%",
+  width: "30%",
    border: "5px solid black",
   padding: "40px",
   margin: "30px",
@@ -59,19 +60,19 @@ function Fetchapi() {
  const mystyle2={
   border: "1px solid black",
   width:"60%",
- 
+ marginLeft:"70px"
     };
 
  return (
    <div>
      <h1 style={{fontFamily:"sans-serif"}}>Ranking words with there frequency</h1>
-   <input style={{marginLeft:"20px",height:"17px"}}type="number" id="inp" name="number"></input> <br/>
+   <b>Number:</b><input style={{marginLeft:"20px",height:"17px"}}type="number" id="inp" name="number"></input> <br/>
    <button style={{marginLeft:"20px",marginTop:"5px",backgroundColor:"red",borderRadius:"70px"}}onClick={apiGet} >submit</button><br/> 
    <div style={mystyle1}>
    <table style={mystyle2}>
     <thead>
       <tr>
-       <th style={mystyle2}>Word</th>
+       <th style={mystyle2}>Words</th>
        <th style={mystyle2}>Frequency</th>
        </tr>
     </thead>
