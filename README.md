@@ -14,6 +14,8 @@ output: [
       
 # test-case 2:
 * input n=10 
+
+![](https://github.com/dorjee515/react-invictus-assigment/blob/master/test%20outputs/test2.png)
 output: [
        1. and : 10
        2. the : 9
