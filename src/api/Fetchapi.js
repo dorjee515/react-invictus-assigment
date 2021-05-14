@@ -13,7 +13,7 @@ function Fetchapi() {
      f(document.getElementById("inp").value); 
     }
     //converting raw text into string and removing all unesssary spaces and special characters from the
-  const dtos=data.toString().replace(/[^a-zA-Z ]/g, "").split(" "); 
+  const dtos=data.toString().toLowerCase().replace(/  [^a-zA-Z ]/g, "").split(" "); 
   const output=[]
 
   //finding frequency of each words
